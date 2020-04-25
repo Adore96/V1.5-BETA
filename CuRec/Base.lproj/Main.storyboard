@@ -150,9 +150,11 @@
                                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                 <textInputTraits key="textInputTraits"/>
                                             </textField>
-                                            <pickerView tag="1" contentMode="scaleAspectFit" translatesAutoresizingMaskIntoConstraints="NO" id="l20-cy-cux">
+                                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Blood Type : A+" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="6SR-qf-0tN">
                                                 <rect key="frame" x="152.5" y="0.0" width="142.5" height="56.5"/>
-                                            </pickerView>
+                                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                <textInputTraits key="textInputTraits"/>
+                                            </textField>
                                         </subviews>
                                     </stackView>
                                     <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="9" translatesAutoresizingMaskIntoConstraints="NO" id="hW0-Za-ipk">
@@ -185,6 +187,9 @@
                                         <state key="normal" title="Register">
                                             <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         </state>
+                                        <connections>
+                                            <segue destination="jgQ-j1-Cwx" kind="show" id="2PA-EH-bM7"/>
+                                        </connections>
                                     </button>
                                     <stackView opaque="NO" contentMode="scaleToFill" distribution="fillProportionally" translatesAutoresizingMaskIntoConstraints="NO" id="YH0-2T-2Kz">
                                         <rect key="frame" x="0.0" y="362.5" width="295" height="56.5"/>
@@ -225,6 +230,22 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="VCz-19-wzK" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="2234" y="-203"/>
+        </scene>
+        <!--Basic Symptom -->
+        <scene sceneID="gDO-Ij-KxO">
+            <objects>
+                <viewController id="jgQ-j1-Cwx" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="nuq-rf-Bhb">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <viewLayoutGuide key="safeArea" id="LQo-q9-1Hc"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Basic Symptom " id="652-II-kBu"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="6bE-pC-Tlc" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2233" y="521"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="bou-51-CQ2">

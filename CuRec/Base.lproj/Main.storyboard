@@ -238,7 +238,18 @@
                     <view key="view" contentMode="scaleToFill" id="nuq-rf-Bhb">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="virusplash" translatesAutoresizingMaskIntoConstraints="NO" id="bon-lf-WFz">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                            </imageView>
+                        </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="bon-lf-WFz" secondAttribute="trailing" id="60O-mX-PQG"/>
+                            <constraint firstItem="bon-lf-WFz" firstAttribute="top" secondItem="nuq-rf-Bhb" secondAttribute="top" id="6DA-OA-ckW"/>
+                            <constraint firstItem="bon-lf-WFz" firstAttribute="leading" secondItem="nuq-rf-Bhb" secondAttribute="leading" id="T9q-iZ-pOh"/>
+                            <constraint firstAttribute="bottom" secondItem="bon-lf-WFz" secondAttribute="bottom" id="iXQ-aM-FCI"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="LQo-q9-1Hc"/>
                     </view>
                     <navigationItem key="navigationItem" title="Basic Symptom " id="652-II-kBu"/>

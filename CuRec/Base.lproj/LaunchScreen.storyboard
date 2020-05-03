@@ -22,7 +22,7 @@
                                 <rect key="frame" x="66" y="145.5" width="243" height="376"/>
                             </imageView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Kotelawala_Defence_University_crest" translatesAutoresizingMaskIntoConstraints="NO" id="ATz-Yh-qzs">
-                                <rect key="frame" x="62.5" y="550" width="250" height="67"/>
+                                <rect key="frame" x="137" y="550" width="101" height="67"/>
                             </imageView>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="EIb-me-ky7">
                                 <rect key="frame" x="14.5" y="621.5" width="346.5" height="30.5"/>
@@ -44,6 +44,7 @@
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <constraints>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="ATz-Yh-qzs" secondAttribute="trailing" constant="137" id="2ZV-KE-sf7"/>
                             <constraint firstItem="mNL-yN-ESY" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="2ev-ys-VD8"/>
                             <constraint firstItem="uLn-dL-LJw" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leading" id="AJ5-9j-u0I"/>
                             <constraint firstItem="EIb-me-ky7" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="Fdl-4W-7du"/>

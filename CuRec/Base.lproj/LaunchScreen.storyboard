@@ -22,7 +22,7 @@
                                 <rect key="frame" x="66" y="145.5" width="243" height="376"/>
                             </imageView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Kotelawala_Defence_University_crest" translatesAutoresizingMaskIntoConstraints="NO" id="ATz-Yh-qzs">
-                                <rect key="frame" x="137" y="550" width="101" height="67"/>
+                                <rect key="frame" x="137" y="570" width="101" height="47"/>
                             </imageView>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="EIb-me-ky7">
                                 <rect key="frame" x="14.5" y="621.5" width="346.5" height="30.5"/>
@@ -51,7 +51,7 @@
                             <constraint firstAttribute="trailingMargin" secondItem="mNL-yN-ESY" secondAttribute="trailing" constant="50" id="JRb-Sq-0zc"/>
                             <constraint firstAttribute="bottom" secondItem="uLn-dL-LJw" secondAttribute="bottom" id="Ksc-8f-PLQ"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="EIb-me-ky7" secondAttribute="bottom" constant="15" id="LHq-jX-Em5"/>
-                            <constraint firstItem="ATz-Yh-qzs" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="550" id="WfK-KT-cqP"/>
+                            <constraint firstItem="ATz-Yh-qzs" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="570" id="WfK-KT-cqP"/>
                             <constraint firstItem="mNL-yN-ESY" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leadingMargin" constant="50" id="XL4-4Y-WJn"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="ATz-Yh-qzs" secondAttribute="bottom" constant="50" id="leK-Pm-jyo"/>
                             <constraint firstItem="ATz-Yh-qzs" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="mkH-Cf-mhm"/>

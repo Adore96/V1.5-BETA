@@ -420,7 +420,7 @@
             </objects>
             <point key="canvasLocation" x="2233" y="521"/>
         </scene>
-        <!--Contact History-->
+        <!--Contact History.-->
         <scene sceneID="aFC-qn-OHv">
             <objects>
                 <viewController id="Vu4-Yw-zBz" sceneMemberID="viewController">
@@ -625,7 +625,7 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="3UT-t5-Gur"/>
                     </view>
-                    <navigationItem key="navigationItem" title="Contact History" id="n44-oQ-94Q">
+                    <navigationItem key="navigationItem" title="Contact History." id="n44-oQ-94Q">
                         <barButtonItem key="backBarButtonItem" title="Symptoms" id="X0p-mg-EDe"/>
                     </navigationItem>
                 </viewController>
